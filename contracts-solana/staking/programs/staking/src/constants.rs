@@ -1,4 +1,2 @@
-use anchor_lang::prelude::*;
-
-#[constant]
-pub const SEED: &str = "anchor";
+pub const STAKE_SEED: &[u8] = b"stake";
+pub const VAULT_SEED: &[u8] = b"vault";
