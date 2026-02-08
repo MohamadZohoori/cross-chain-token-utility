@@ -1,0 +1,15 @@
+{
+  "name": "cross-chain-token-utility",
+  "private": true,
+  "workspaces": [
+    "contracts-evm",
+    "backend",
+    "frontend",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:frontend": "npm --workspace frontend run dev",
+    "dev:backend": "npm --workspace backend run dev",
+    "test:evm": "npm --workspace contracts-evm run test"
+  }
+}

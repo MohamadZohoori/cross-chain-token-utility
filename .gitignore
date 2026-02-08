@@ -1,0 +1,19 @@
+# Node
+node_modules/
+.env
+
+# Solana / Anchor
+target/
+**/target/
+.anchor/
+
+# Next.js
+.next/
+out/
+
+# Hardhat
+artifacts/
+cache/
+
+# OS
+.DS_Store
